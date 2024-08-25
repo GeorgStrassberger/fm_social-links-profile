@@ -1,8 +1,65 @@
+:root{
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700:hsl(0, 0%, 20%);
+  --grey-800:hsl(0, 0%, 12%);
+  --grey-900:hsl(0, 0%, 8%);
+  --ff-inter: "Inter";
+  --fs-para: 14px;
+  --fw-normal: 400;
+  --fw-semibold: 600;
+  --fw-bold:700;
+}
+
+/* 
+@media 
+- Mobile: 375px
+- Desktop: 1440px 
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--grey-900);
+}
+
+main{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  height: 500px;
+  width: 300px;
+  background-color: var(--grey-800);
+  border: 1px solid red;
+}
+
+footer{
+  padding: 1rem;
+}
+
+
+
+
+
 .attribution {
     font-size: 11px;
     text-align: center;
   }
 
-  .attribution a {
+.attribution a {
     color: hsl(228, 45%, 44%);
   }
