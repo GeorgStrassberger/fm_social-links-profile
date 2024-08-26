@@ -1,0 +1,13 @@
+Interface bauen für die httpClient bauen
+
+sign in ist falsch geschrieben
+
+fehlermeldungen durchreichen
+
+reactive forms validieren
+
+enviremend datei anlegen
+
+password hashen
+
+email adresse sollte auch unique sein
